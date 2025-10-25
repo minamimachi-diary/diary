@@ -2,15 +2,38 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>日々雑感</title>
+  <title>南町日記</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h3>日々の感じたことや勉強したことのメモです。</h3>
-  <p>目次</p>
-  <!-- 以下にリンクの例を示します -->
-  <a href="20230619 RBC Memo3.html">20230619 RBC model memo</a></br>
+  <div class="layout">
+    <!-- 左カラム：目次 -->
+    <nav class="sidebar">
+      <h2>目次</h2>
+      <ul>
+        <li><a href="#entry1">2025-10-25 ベイズ1</a></li>
+        <li><a href="#entry2">2025-10-25 混合ポアソン過程</a></li>
+        <li><a href="#entry3">2025-10-25 統計物理とマクロ経済</a></li>
+      </ul>
+    </nav>
 
-  <a href="20230625 Ponzi shcheme/20230625 Ponzi shcheme.html">20230625 Ponzi Scheme</a>
+    <!-- 右カラム：本文 -->
+    <main class="content">
+      <section id="entry1">
+        <h2>ベイズ1</h2>
+        <p>気になるニュースをベイズ推定。</p>
+      </section>
 
+      <section id="entry2">
+        <h2>混合ポアソン過程</h2>
+        <p>取引発生はポアソン過程、取引価格は指数分布のとき</p>
+      </section>
+
+      <section id="entry3">
+        <h2>統計物理とマクロ経済</h2>
+        <p>システム生物学とマクロ経済の資産分布</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
